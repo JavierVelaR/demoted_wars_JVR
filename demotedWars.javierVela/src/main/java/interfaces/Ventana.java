@@ -8,8 +8,9 @@ public class Ventana extends JFrame {
 	protected Usuario usuarioLogueado;
 	
 	public Ventana() {
-		this.setSize(625,550);
-		this.setTitle("Prueba interfaces");
+		this.setSize(978,625);
+		this.setResizable(false);
+		this.setTitle("Demoted Wars");
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setContentPane(new PantallaLogin(this));
